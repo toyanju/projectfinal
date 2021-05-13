@@ -1,0 +1,42 @@
+*{
+	padding:0;
+	margin:5px;
+	box-sizing:border-box;
+	justify-content:center;
+	text-align:center;
+	align-items:center;
+	float:center;
+}
+h2{
+	font-size:25px;
+	text-transform:uppercase;
+}
+span{
+	font-size:45px;
+	color:dodgerblue;
+}
+.btn{
+	background-color:dodgerblue;
+	color:white;
+	border-color:dodgerblue;
+	padding:5px 43px;
+}
+.bor{
+	border:none;
+	text-align:left;
+	margin-bottom :4px;
+	border-bottom:2px solid orange;
+}
+i{
+	color:orange;
+}
+img{
+	width:60px;
+}
+form{
+	width:50%;
+	border:1px solid black;
+	margin-left:25%;
+	padding-top:2%;
+	padding-bottom:4%;
+}
