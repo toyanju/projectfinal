@@ -12,7 +12,7 @@
 		echo "<h1>As passwords devem ser iguais";
 		exit;
 	}
-		$existe="SELECT * FROM customer where email)'".$email."OR user='".$user."'";
+		$existe="SELECT * FROM customer where email='".$email."OR user='".$user."'";
 		$faz_existe=mysqli_query($ligaBD,$existe);
 		$jaexiste=mysqli_num_rows($faz_existe);
 		
